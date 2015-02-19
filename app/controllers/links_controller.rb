@@ -1,12 +1,12 @@
 
-
 class LinksController < ApplicationController
   def show
+
   end
 
   def new
 
-  	
+  	@link = Link.new
 
   end
 
